@@ -150,4 +150,4 @@ https://github.com/BoldizsarZopcsak/GAN-Tutorial-Notebook
 -   [Jupyter Virtual Envs](https://janakiev.com/blog/jupyter-virtual-envs/) -
     Setting up jupyter kernels for conda environments
 
-[1]: http://colab.research.google.com/github/umcconnell/mnist-gan/blob/master/src/mnist-gan.ipynb
+[1]: http://colab.research.google.com/github/umcconnell/mnist-gan/blob/master

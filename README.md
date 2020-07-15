@@ -56,8 +56,8 @@ cd mnist-gan/
 Then create your virtual environment:
 
 ```bash
-conda create --name mnist-gan
-conda activate mnist-gan
+conda create --name torch
+conda activate torch
 ```
 
 Next, installed the required packages. This may vary based on your system
@@ -72,7 +72,7 @@ Create a jupyter kernel for your conda environment:
 
 ```bash
 pip install --user ipykernel
-python -m ipykernel install --user --name=mnist-gan
+python -m ipykernel install --user --name=torch
 ```
 
 Finally, open jupyter lab:
@@ -83,8 +83,8 @@ jupyter lab src/
 
 > **Important:**
 > Make sure you use the kernel you created above. After opening the notebook,
-> navigate to `Kernel` > `Change Kernel...` in the UI and select `mnist-gan`
-> from the dropdown.
+> navigate to `Kernel` > `Change Kernel...` in the UI and select `torch` from
+> the dropdown.
 > See this blog post for more info:
 > https://janakiev.com/blog/jupyter-virtual-envs/
 

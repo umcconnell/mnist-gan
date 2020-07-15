@@ -2,8 +2,8 @@ import argparse
 import os
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-f', '--figs', default='figs/',
-                    help='directory containing training figures. Default is figs/')
+parser.add_argument('-f', '--figs', default='figs/gan',
+                    help='directory containing training figures. Default is figs/gan')
 parser.add_argument('-r', '--framerate', type=int, default=4,
                     help='amount figures shown per second. Default is 4')
 parser.add_argument('-o', '--out', default='mnist-gan.mp4',

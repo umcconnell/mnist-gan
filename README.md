@@ -7,6 +7,7 @@ pytorch.
 
 ## Table of Contents
 
+-   [Overview](#overview)
 -   [Getting Started](#getting-started)
     -   [Prerequisites](#prerequisites)
     -   [Initial setup](#initial-setup)
@@ -17,6 +18,17 @@ pytorch.
 -   [License](#license)
 -   [See also](#see-also)
 -   [Acknowledgments](#acknowledgments)
+
+## Overview
+
+This project contains two GAN implementations for the MNIST dataset:
+
+-   [mnist-gan](./src/mnist-gan.ipynb): Classic GAN
+-   [mnist-cgan](./src/mnist-cgan.ipynb): Conditional GAN (cGAN)
+
+Follow the instructions below for a development setup on your local machine or
+in the cloud with Google Colab. Then choose the notebook you would like to
+explore.
 
 ## Getting Started
 
